@@ -1,1 +1,81 @@
 
+
+
+/*FOOTER*/
+footer {
+  background-color: #766B68;
+  padding: 10px;
+  color: #333;
+  opacity: 90%;
+}
+
+.input-group input[type=email], .input-group-btn button{
+  font-size: 14px;
+  color:#333;
+  font-weight: 600;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: none;
+  cursor: pointer;
+  border:.16rem solid #F8E4EB;
+
+}
+
+.input-group-btn button{
+  background-color: #F59C24;  
+  border-radius: none;
+}
+
+.input-group-btn button:hover{
+  background-color: #fdfdfd;  
+  border:.2rem solid #F59C24;
+}
+
+footer .credit{
+  font-size: 1.2rem;
+  text-align: center;
+  padding:0.2rem;
+  font-weight: 400;
+  letter-spacing: .1rem;
+  color:#333;
+}
+
+.team{
+  background-color: #FEFAF1;
+}
+
+.team .footer-box{
+  display: flex;
+
+}
+
+.team .footer-box .footer-content{
+  margin:2rem;
+  flex:1 1 25rem;
+}
+
+.footer-content li {
+  list-style: none;
+  padding-top:1rem;
+}
+
+.footer-content li a:hover {
+  cursor: pointer;
+  color: #F59C24;
+}
+
+
+.footer-content p {
+  display: inline-block;
+  text-align: justify;
+  padding:1rem 0;
+}
+
+
+.btn-whatsapp img {
+  height: 50px;
+  padding-top: 1%;
+  display: block;
+}
+/*Footer End*/
