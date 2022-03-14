@@ -48,6 +48,36 @@ header {
 
 /* END HEADER */
 
+/* BODY */
+
+.bestseller-section{
+  padding: 5rem 3rem;
+  color: #333;
+}
+
+.bestseller-title{
+  text-align: center;
+}
+
+.bestseller-image{
+  padding-top: 1rem;
+  /* background-color: #F8E4EB; */
+  max-width: 23%;
+  max-height: 500px;
+}
+
+.bestseller-image img{
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.img-best{
+  
+}
+
+/* END BODY */
+
+
 /*FOOTER*/
 footer {
   background-color: #766B68;
