@@ -106,9 +106,9 @@ a {
 /* BODY */
 
 .bestseller-section{
-  padding: 5rem 3rem;
+  margin-top: 5rem;
   color: #333;
-  margin-bottom: 100px;
+  text-align: center;
 }
 
 .bestseller-title{
@@ -116,33 +116,33 @@ a {
 }
 
 .bestseller-main{
-  display: block;
-  /* margin-left: auto;
-  margin-right: auto; */
+  display: flex;
+  margin: auto;
+  width: 80%;
 }
 
 .bestseller-image{
-  padding-top: 1rem;
-  max-width: 23%;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  max-width: 28%;
   float: left;
-  margin-left: 2rem;
+  margin-left: 1rem;
+  position: relative;
 }
 
 .first-bs{
-  margin: 0;
+  margin-left: 0;
 }
 
 .bestseller-image img{
-  max-height: 200px;
+  max-height: 230px;
+  width: 100%;
   border-radius: 8px;
-}
-
-.bestseller-image p{
-  text-align: center;
+  /* display: block; */
 }
 
 .reason-section {
-  padding: 150px 0;
+  padding: 5rem 0;
   text-align: center;
   color: #333;
 }
