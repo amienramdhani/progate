@@ -51,8 +51,9 @@ header {
 /* BODY */
 
 .bestseller-section{
-  padding: 5rem 3rem;
+  margin-top: 5rem;
   color: #333;
+  text-align: center;
 }
 
 .bestseller-title{
@@ -60,16 +61,17 @@ header {
 }
 
 .bestseller-main{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  margin: auto;
+  width: 80%;
 }
 
 .bestseller-image{
   padding-top: 1rem;
-  max-width: 23%;
+  padding-bottom: 5rem;
+  max-width: 28%;
   float: left;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .first-bs{
@@ -77,8 +79,10 @@ header {
 }
 
 .bestseller-image img{
-  max-height: 200px;
+  max-height: 230px;
+  width: 100%;
   border-radius: 8px;
+  /* display: block; */
 }
 
 .bestseller-image p{
