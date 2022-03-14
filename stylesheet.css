@@ -1,5 +1,52 @@
+/* HEADER */
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 70px;
+    width: 99%;
+    background-color: #766b68;
+    opacity: 90%;
+    /* Change the position property to fixed, and top property to 0 */
+    position: fixed;
+    top: 0;
+    /* Change the z-index property to 10 */
+    z-index: 10;
+}
+
+.logo {
+    width: 80px;
+    height: 70px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+    line-height: 70px;
+    padding: 0 25px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
 
 
+/* END HEADER */
 
 /*FOOTER*/
 footer {
