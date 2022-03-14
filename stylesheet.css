@@ -59,20 +59,30 @@ header {
   text-align: center;
 }
 
+.bestseller-main{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .bestseller-image{
   padding-top: 1rem;
-  /* background-color: #F8E4EB; */
   max-width: 23%;
-  max-height: 500px;
+  float: left;
+  margin-left: 2rem;
+}
+
+.first-bs{
+  margin: 0;
 }
 
 .bestseller-image img{
-  max-width: 100%;
+  max-height: 200px;
   border-radius: 8px;
 }
 
-.img-best{
-  
+.bestseller-image p{
+  text-align: center;
 }
 
 /* END BODY */
@@ -84,6 +94,7 @@ footer {
   padding: 10px;
   color: #333;
   opacity: 90%;
+  clear: left;
 }
 
 .input-group input[type=email], .input-group-btn button{
