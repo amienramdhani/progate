@@ -122,15 +122,16 @@ a {
 }
 
 .bestseller-image{
-  padding-top: 1rem;
-  padding-bottom: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
   max-width: 28%;
   float: left;
   margin-left: 1rem;
+  position: relative;
 }
 
 .first-bs{
-  margin: 0;
+  margin-left: 0;
 }
 
 .bestseller-image img{
@@ -138,10 +139,6 @@ a {
   width: 100%;
   border-radius: 8px;
   /* display: block; */
-}
-
-.bestseller-image p{
-  text-align: center;
 }
 
 /* END BODY */
