@@ -151,9 +151,9 @@ a {
 
 .bestseller-image{
   width: 60%;
-    position: relative;
-    margin-left: 25px;
-    margin-right: auto;
+  position: relative;
+  margin-left: 25px;
+  margin-right: auto;
 }
 
 .first-bs{
@@ -165,6 +165,10 @@ a {
   width: 100%;
   border-radius: 8px;
   /* display: block; */
+}
+
+.bestseller-image p{
+  text-align: justify;
 }
 
 .reason-section {
