@@ -105,6 +105,20 @@ a {
 
 /* BODY */
 
+/* animation */
+
+@keyframes explanation {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes bs-title {
+  0% {opacity: 0; top: 10px;}
+  100% {opacity: 1; top: 0px;}
+}
+
+/* end of animation */
+
 .bestseller-section{
   margin-top: 5rem;
   color: #333;
@@ -112,7 +126,10 @@ a {
 }
 
 .bestseller-title{
+  position: relative;
   text-align: center;
+  animation-name: bs-title;
+  animation-duration: 2s;
 }
 
 .bestseller-main{
@@ -161,10 +178,14 @@ a {
 }
 
 .bestseller-image img{
-  max-height: 230px;
+  max-height: 185px;
   width: 100%;
   border-radius: 8px;
-  /* display: block; */
+}
+
+.bestseller-image h4, p{
+  animation-name: explanation;
+  animation-duration: 4s;
 }
 
 .bestseller-image p{
